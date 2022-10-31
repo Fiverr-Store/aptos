@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------
+# nav-area
+--------------------------------------------------------------*/
+.nav-area{
+
+  .nav-con{
+    display: flex;
+    padding: 18px 0px;
+    position: relative;
+    z-index: 9;
+  }
+  .nav-logo{
+     position: absolute;
+     top: 80%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+    img{
+      max-height: 50px;
+      @media only screen and (max-width: 767px) {
+       max-height: 45px;
+      }
+    }
+  }
+  .nav-social{
+    margin-left: auto;
+    @media only screen and (max-width: 767px) {
+     display: none;
+    }
+    a{
+      &:not(:last-child) {
+      margin-right: 8px;
+      }
+      text-decoration: none;
+      display: inline-block;
+      img{
+        height: 26px;
+      }
+    }
+  }
+}
