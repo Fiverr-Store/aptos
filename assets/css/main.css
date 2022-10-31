@@ -245,6 +245,8 @@ h6 a {
   .main-footer .footer-social {
     position: relative;
     bottom: 0;
+    text-align: center;
+    margin-top: 28px;
   }
 }
 .main-footer .footer-social p {
