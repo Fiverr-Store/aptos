@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"); /*--------------------------------------------------------------
+# base
+--------------------------------------------------------------*/
+body {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  text-decoration: none;
+}
+a:focus, a:hover {
+  text-decoration: none;
+}
+
+i,
+span,
+a {
+  display: inline-block;
+}
+
+audio,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+}
+
+section {
+  overflow: hidden;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+/*--------------------------------------------------------------
+# banner
+--------------------------------------------------------------*/
+.banner {
+  padding: 60px 0px;
+  background-color: #000;
+}
+@media only screen and (max-width: 1199px) {
+  .banner {
+    padding: 50px 0px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .banner {
+    padding: 40px 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .banner {
+    padding: 20px 0px;
+  }
+}
+.banner .banner-logo {
+  text-align: center;
+}
+.banner .banner-logo img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+@media only screen and (max-width: 1399px) {
+  .banner .banner-logo img {
+    max-width: 350px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .banner .banner-logo img {
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .banner .banner-logo img {
+    max-width: 250px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .banner .banner-logo img {
+    max-width: 220px;
+  }
+}
+
+/*--------------------------------------------------------------
+# main
+--------------------------------------------------------------*/
+.main {
+  padding: 60px 0px;
+  background-color: #232323;
+}
+@media only screen and (max-width: 1199px) {
+  .main {
+    padding: 50px 0px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .main {
+    padding: 40px 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main {
+    padding: 30px 0px;
+  }
+}
+.main .main-text p {
+  font-size: 20px;
+  color: #d7d6d6;
+  font-weight: 500;
+}
+.main .main-text p:not(:last-child) {
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .main .main-text p:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .main .main-text p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main .main-text p {
+    font-size: 17px;
+  }
+}
+.main .main-list {
+  margin-top: 16px;
+}
+.main .main-list p {
+  font-size: 18px;
+  color: #d7d6d6;
+  font-weight: 500;
+}
+.main .main-list p:not(:last-child) {
+  margin-bottom: 6px;
+}
+@media only screen and (max-width: 991px) {
+  .main .main-list p {
+    font-size: 16px;
+  }
+}
+.main .main-list p span {
+  color: #f8e95c;
+}
+
+/*--------------------------------------------------------------
+# last
+--------------------------------------------------------------*/
+.last {
+  padding: 60px 0px;
+  background-color: #000;
+}
+@media only screen and (max-width: 767px) {
+  .last {
+    padding: 40px 0px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .last {
+    padding: 30px 0px;
+  }
+}
+.last .l-con {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.last h1 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+@media only screen and (max-width: 1199px) {
+  .last h1 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .last h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .last h1 {
+    font-size: 26px;
+  }
+}
+.last p {
+  font-size: 20px;
+  color: #d7d6d6;
+  font-weight: 500;
+}
+@media only screen and (max-width: 991px) {
+  .last p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .last p {
+    font-size: 17px;
+  }
+}
