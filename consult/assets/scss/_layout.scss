@@ -1,0 +1,116 @@
+/*--------------------------------------------------------------
+# services
+--------------------------------------------------------------*/
+.sec-t{
+  text-align: center;
+  h2{
+    font-size: 40px;
+    color: $primary-color;
+    margin-bottom: 36px;
+    text-transform: uppercase;
+    @media only screen and (max-width: 767px) {
+     font-size: 35px;
+     margin-bottom: 28px;
+    }
+    @media only screen and (max-width: 482px) {
+     font-size: 30px;
+     margin-bottom: 22px;
+    }
+  }
+}
+.services{
+  padding: 70px 0px;
+  background-color: $secondary-color;
+  @media only screen and (max-width: 991px) {
+   padding: 50px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+   padding: 40px 0px;
+  }
+  .s-box{
+    padding: 30px 30px;
+    border: 1px solid $primary-color;
+    text-align: center;
+    transition: all .2s ease-in;
+    @media only screen and (max-width: 767px) {
+     padding: 20px 20px;
+    }
+    h4{
+      font-size: 25px;
+      margin-bottom: 18px;
+      @media only screen and (max-width: 767px) {
+       font-size: 22px;
+       margin-bottom: 15px;
+      }
+    }
+    p{
+      font-size: 15px;
+      @media only screen and (max-width: 767px) {
+       font-size: 14px;
+      }
+    }
+    &:hover{
+      background-color: #fff;
+    }
+  }
+}
+
+.about{
+  padding: 70px 0px;
+  @media only screen and (max-width: 991px) {
+   padding: 50px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+   padding: 40px 0px;
+  }
+  text-align: center;
+  .abt-text{
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    p{
+      font-size: 15px;
+      &:not(:last-child) {
+      margin-bottom: 20px;
+      @media only screen and (max-width: 767px) {
+       margin-bottom: 18px;
+      }
+      }
+      @media only screen and (max-width: 767px) {
+       font-size: 14px;
+      }
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# contact
+--------------------------------------------------------------*/
+.contact{
+  background-color: #0C3C60;
+  padding: 70px 0px;
+  @media only screen and (max-width: 991px) {
+    padding: 50px 0px;
+   }
+   @media only screen and (max-width: 767px) {
+    padding: 40px 0px;
+   }
+   .sec-t{
+    h2{
+      color: #fff;
+    }
+   }
+   label{
+    font-size: 15px;
+    color: #fff;
+   }
+   .form-control{
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    box-shadow: none;
+   }
+
+}

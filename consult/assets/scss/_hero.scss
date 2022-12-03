@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------
+# hero-area
+--------------------------------------------------------------*/
+.hero-area{
+  background-image: url('../img/hero/hero-bg.jpg');
+  background-position:  center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 766px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  @media only screen and (max-width: 991px) {
+   height: 666px;
+  }
+  @media only screen and (max-width: 767px) {
+   height: 550px;
+  }
+  @media only screen and (max-width: 482px) {
+   height: 450px;
+  }
+  .text-box{
+    max-width: 700px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 30px 20px;
+    @media only screen and (max-width: 991px) {
+     max-width: 600px;
+     padding: 20px 20px;
+    }
+    @media only screen and (max-width: 767px) {
+      max-width: 450px;
+    }
+    @media only screen and (max-width: 482px) {
+     max-width: 400px;
+    }
+    p{
+      font-size: 23px;
+      margin-bottom: 14px;
+      @media only screen and (max-width: 991px) {
+       font-size: 21px;
+      }
+      @media only screen and (max-width: 767px) {
+       font-size: 19px;
+       margin-bottom: 10px;
+      }
+      @media only screen and (max-width: 482px) {
+       font-size: 16px;
+      }
+    }
+    h1{
+      font-size: 60px;
+      margin-bottom: 25px;
+      @media only screen and (max-width: 991px) {
+       font-size: 50px;
+      }
+      @media only screen and (max-width: 767px) {
+       font-size: 37px;
+       margin-bottom: 22px;
+      }
+      @media only screen and (max-width: 482px) {
+       font-size: 30px;
+       margin-bottom: 16px;
+      }
+    }
+  }
+}
