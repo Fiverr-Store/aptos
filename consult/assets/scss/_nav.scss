@@ -16,7 +16,7 @@
 	padding: 0;
 	position: relative;
 	transition: all 0.3s ease-out 0s;
-	padding: 8px 0;
+	padding: 10px 0;
 	@media (max-width: 991px) {
 		padding: 8px 0;
 	}
@@ -30,7 +30,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    font-size: 21px;
+    font-size: 20px;
     color: #fff;
     font-weight: 400;
     padding: 0;
@@ -63,7 +63,7 @@
 	.navbar-nav {
 		.nav-item {
 			position: relative;
-			margin-left: 23px;
+			margin-left: 28px;
 			&:first-child {
 				margin-left: 0;
 			}
@@ -90,11 +90,13 @@
 					padding: 2px 0;
 					margin: 6px 0px;
           color: #fff;
+
 				}
 				@media only screen and (max-width: 767px) {
 					display: inline-block;
 				}
 			}
+
 		}
 	}
 
@@ -105,7 +107,7 @@
 			left: 0;
 			width: 100%;
 			z-index: 9;
-			background-color: #000;
+			background-color: #072136;
 			box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.1);
 		}
 		@media only screen and (max-width: 991px) {
@@ -118,7 +120,7 @@
 			left: 0;
 			width: 100%;
 			z-index: 9;
-			background-color: #000;
+			background-color: #072136;
 			box-shadow: 0 15px 20px 0 rgba(43, 56, 109, 0.1);
 		}
 	}
@@ -177,7 +179,7 @@
 	background-color: $primary-color;
 	box-shadow: 0 0.16rem 0.2rem 0 rgba(36, 39, 46, 0.05);
 	.navbar {
-		padding: 8px 0;
+    padding: 10px 0;
 		@media (max-width: 991px) {
 			padding: 8px 0;
 		}
@@ -198,37 +200,6 @@
 	}
 }
 
-.social {
-	@media only screen and (min-width: 992px) {
-		align-items: center;
-	}
-	@media only screen and (max-width: 991px) {
-		padding-top: 6px;
-	}
-	li {
-		padding: 0;
-		margin-left: 24px;
-		@media only screen and (max-width: 991px) {
-			margin-left: 0px;
-		}
-
-		.btn-hero {
-		 background-color: #fff;
-			border: 0;
-			display: inline-flex;
-			text-decoration: none;
-			color: $primary-color;
-			padding: 9px 15px;
-			font-size: 14px;
-			font-weight: 600;
-			border-radius: 0px;
-			&:hover {
-				background-color: #00e755;
-				color: #111;
-			}
-		}
-	}
-}
 
 .nav-center {
 	/** Large devices (desktops, 992px and up) **/
