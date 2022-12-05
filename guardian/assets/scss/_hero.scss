@@ -1,0 +1,51 @@
+/*--------------------------------------------------------------
+# hero-area
+--------------------------------------------------------------*/
+.hero-area{
+
+
+  padding-top: 90px;
+  padding-bottom: 35px;
+   background-image: url('../img/hero/hero-bg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   @media only screen and (max-width: 991px) {
+    text-align: center;
+    padding-top: 60px;
+   }
+
+   h1{
+    font-size: 44px;
+    font-weight: 300;
+    margin-bottom: 34px;
+    @media only screen and (max-width:1299px) {
+     font-size: 40px;
+    }
+    @media only screen and (max-width: 1199px) {
+     font-size: 36px;
+     margin-bottom: 25px;
+    }
+    @media only screen and (max-width: 767px) {
+     font-size: 33px;
+    }
+    @media only screen and (max-width: 482px) {
+     font-size: 28px;
+     margin-bottom: 20px;
+    }
+   }
+   .btn-main{
+    display: inline-block;
+    background-color: $primary-color;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 40px 8px 40px;
+    border-radius: 10px;
+    border: 0;
+    transition: all .2s ease-in;
+    &:hover{
+      background-color: darken($color: $primary-color, $amount: 10%);
+      color: #fff;
+    }
+   }
+}

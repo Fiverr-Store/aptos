@@ -1,0 +1,144 @@
+/*--------------------------------------------------------------
+# intro
+--------------------------------------------------------------*/
+.intro {
+	padding: 90px 0px;
+	@media only screen and (max-width: 1199px) {
+		padding: 80px 0px;
+	}
+	@media only screen and (max-width: 991px) {
+		padding: 60px 0px;
+	}
+	@media only screen and (max-width: 767px) {
+		padding: 40px 0px;
+	}
+	.title {
+		text-align: center;
+		font-size: 32px;
+		font-weight: 300;
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 80px;
+		@media only screen and (max-width: 1199px) {
+			font-size: 27px;
+			max-width: 700px;
+			margin-bottom: 60px;
+		}
+		@media only screen and (max-width: 767px) {
+			font-size: 24px;
+			margin-bottom: 30px;
+		}
+	}
+	.in-single {
+		.in-logo {
+			height: 56px;
+			margin-bottom: 5px;
+		}
+		h4 {
+			color: #000;
+			font-size: 18px;
+			font-weight: 700;
+			margin-bottom: 10px;
+		}
+		P {
+			font-weight: 300;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# products
+--------------------------------------------------------------*/
+.products {
+	padding-top: 30px;
+	padding-bottom: 90px;
+	@media only screen and (max-width: 1199px) {
+		padding-top: 10px;
+		padding-bottom: 80px;
+	}
+	@media only screen and (max-width: 991px) {
+		padding-top: 10px;
+		padding-bottom: 60px;
+	}
+	@media only screen and (max-width: 767px) {
+		padding-top: 0px;
+		padding-bottom: 40px;
+	}
+	.sec-t {
+		text-align: center;
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 70px;
+		@media only screen and (max-width: 1199px) {
+			margin-bottom: 60px;
+		}
+		@media only screen and (max-width: 767px) {
+			margin-bottom: 30px;
+		}
+		h2 {
+			font-size: 32px;
+			font-weight: 300;
+			color: #000;
+			margin-bottom: 12px;
+			@media only screen and (max-width: 1199px) {
+				font-size: 27px;
+				margin-bottom: 10px;
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 24px;
+				margin-bottom: 8px;
+			}
+		}
+		p {
+			font-size: 17px;
+			color: #000;
+		}
+	}
+
+	.p-single {
+		background: #f6f8fb;
+		border-radius: 18px;
+		overflow: hidden;
+		height: 100%;
+		.p-body {
+			padding: 40px 40px;
+			@media only screen and (max-width: 767px) {
+				padding: 30px 30px;
+			}
+		}
+		h4 {
+			font-size: 28px;
+			color: #43494e;
+			font-weight: 300;
+			margin-bottom: 8px;
+			@media only screen and (max-width: 767px) {
+				font-size: 25px;
+			}
+		}
+		p {
+			margin-bottom: 40px;
+			@media only screen and (max-width: 767px) {
+				margin-bottom: 30px;
+			}
+		}
+		.learn-btn {
+			display: inline-flex;
+			align-items: center;
+			text-decoration: none;
+			color: #000;
+			span {
+				font-weight: 600;
+				margin-right: 12px;
+			}
+			img {
+				height: 10px;
+			}
+			transition: all 0.2s ease-in;
+			&:hover {
+				color: $primary-color;
+			}
+		}
+	}
+}
