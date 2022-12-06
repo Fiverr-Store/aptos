@@ -54,15 +54,15 @@
 	padding-top: 30px;
 	padding-bottom: 90px;
 	@media only screen and (max-width: 1199px) {
-		padding-top: 10px;
+		padding-top: 20px;
 		padding-bottom: 80px;
 	}
 	@media only screen and (max-width: 991px) {
-		padding-top: 10px;
+		padding-top: 20px;
 		padding-bottom: 60px;
 	}
 	@media only screen and (max-width: 767px) {
-		padding-top: 0px;
+		padding-top: 20px;
 		padding-bottom: 40px;
 	}
 	.sec-t {
@@ -102,6 +102,7 @@
 		border-radius: 18px;
 		overflow: hidden;
 		height: 100%;
+    transition: all .3s ease-in;
 		.p-body {
 			padding: 40px 40px;
 			@media only screen and (max-width: 767px) {
@@ -140,5 +141,93 @@
 				color: $primary-color;
 			}
 		}
+    &:hover{
+      box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.23);
+    }
 	}
+}
+
+/*--------------------------------------------------------------
+# map
+--------------------------------------------------------------*/
+.map{
+  background: linear-gradient(268.13deg, #F7F7F7 0.36%, #F9FAFD 106.22%);
+  padding: 90px 0px;
+	@media only screen and (max-width: 1199px) {
+		padding: 80px 0px;
+	}
+	@media only screen and (max-width: 991px) {
+		padding: 60px 0px;
+	}
+	@media only screen and (max-width: 767px) {
+		padding: 40px 0px;
+	}
+
+  .sec-t {
+		text-align: center;
+
+    border-bottom: 1px solid #E3E3E3;
+		padding-bottom: 50px;
+    margin-bottom: 50px;
+		@media only screen and (max-width: 1199px) {
+      padding-bottom: 40px;
+			margin-bottom: 40px;
+		}
+		@media only screen and (max-width: 767px) {
+      padding-bottom: 30px;
+			margin-bottom: 30px;
+		}
+		h2 {
+			font-size: 32px;
+			font-weight: 300;
+			color: #000;
+			margin-bottom: 12px;
+			@media only screen and (max-width: 1199px) {
+				font-size: 27px;
+				margin-bottom: 10px;
+			}
+			@media only screen and (max-width: 767px) {
+				font-size: 24px;
+				margin-bottom: 8px;
+			}
+		}
+		p {
+      max-width: 550px;
+		margin-left: auto;
+		margin-right: auto;
+			font-size: 17px;
+			color: #000;
+      a{
+        display: inline-block;
+        text-decoration: underline;
+        color: #006FAA;
+      }
+		}
+	}
+
+  .map-single{
+    text-align: center;
+    .map-img{
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+      margin-bottom: 20px;
+      @media only screen and (max-width: 991px) {
+       margin-bottom: 12px;
+       width: 160px;
+       height: 150px;
+      }
+      @media only screen and (max-width: 767px) {
+        height: 120px;
+      }
+    }
+    h5{
+      color: #000;
+      font-weight: 600;
+      font-size: 19px;
+      @media only screen and (max-width: 991px) {
+       font-size: 16px;
+      }
+    }
+  }
 }

@@ -474,7 +474,7 @@ h6 a {
   color: #fff;
   font-weight: 400;
   font-size: 15px;
-  padding: 10px 40px 8px 40px;
+  padding: 11px 40px 8px 40px;
   border-radius: 10px;
   border: 0;
   -webkit-transition: all 0.2s ease-in;
@@ -551,19 +551,19 @@ h6 a {
 }
 @media only screen and (max-width: 1199px) {
   .products {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 80px;
   }
 }
 @media only screen and (max-width: 991px) {
   .products {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 60px;
   }
 }
 @media only screen and (max-width: 767px) {
   .products {
-    padding-top: 0px;
+    padding-top: 20px;
     padding-bottom: 40px;
   }
 }
@@ -611,6 +611,8 @@ h6 a {
   border-radius: 18px;
   overflow: hidden;
   height: 100%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 .products .p-single .p-body {
   padding: 40px 40px;
@@ -661,50 +663,235 @@ h6 a {
 .products .p-single .learn-btn:hover {
   color: #43494E;
 }
+.products .p-single:hover {
+  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.23);
+}
 
 /*--------------------------------------------------------------
-# footer
+# map
 --------------------------------------------------------------*/
-footer {
-  background-color: #041026;
-  padding: 30px 0px;
-  text-align: center;
+.map {
+  background: linear-gradient(268.13deg, #F7F7F7 0.36%, #F9FAFD 106.22%);
+  padding: 90px 0px;
 }
-@media only screen and (max-width: 482px) {
-  footer {
-    position: relative;
+@media only screen and (max-width: 1199px) {
+  .map {
+    padding: 80px 0px;
   }
 }
-footer .footer-links {
-  margin-bottom: 8px;
+@media only screen and (max-width: 991px) {
+  .map {
+    padding: 60px 0px;
+  }
 }
-footer .footer-links ul {
+@media only screen and (max-width: 767px) {
+  .map {
+    padding: 40px 0px;
+  }
+}
+.map .sec-t {
+  text-align: center;
+  border-bottom: 1px solid #E3E3E3;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 1199px) {
+  .map .sec-t {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .map .sec-t {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+}
+.map .sec-t h2 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 1199px) {
+  .map .sec-t h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .map .sec-t h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+}
+.map .sec-t p {
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  color: #000;
+}
+.map .sec-t p a {
+  display: inline-block;
+  text-decoration: underline;
+  color: #006FAA;
+}
+.map .map-single {
+  text-align: center;
+}
+.map .map-single .map-img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .map .map-single .map-img {
+    margin-bottom: 12px;
+    width: 160px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .map .map-single .map-img {
+    height: 120px;
+  }
+}
+.map .map-single h5 {
+  color: #000;
+  font-weight: 600;
+  font-size: 19px;
+}
+@media only screen and (max-width: 991px) {
+  .map .map-single h5 {
+    font-size: 16px;
+  }
+}
+
+/*--------------------------------------------------------------
+# footer-top
+--------------------------------------------------------------*/
+.footer-top {
+  padding: 70px 0px;
+}
+@media only screen and (max-width: 1199px) {
+  .footer-top {
+    padding: 60px 0px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .footer-top {
+    padding: 50px 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footer-top {
+    padding: 40px 0px;
+  }
+}
+
+.footer-links h5 {
+  color: #000;
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 1199px) {
+  .footer-links h5 {
+    margin-bottom: 10px;
+  }
+}
+.footer-links ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-footer .footer-links ul li {
-  display: inline-block;
-  margin-bottom: 5px;
+.footer-links ul li:not(:last-child) {
+  margin-bottom: 7px;
 }
-footer .footer-links ul li:not(:last-child) {
+.footer-links ul a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer-social h5 {
+  color: #000;
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 1199px) {
+  .footer-social h5 {
+    margin-bottom: 10px;
+  }
+}
+.footer-social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-social ul li {
+  display: inline-block;
+}
+.footer-social ul li:not(:last-child) {
   margin-right: 8px;
 }
-footer .footer-links ul li a {
+.footer-social ul a {
+  text-decoration: none;
   display: inline-block;
-  font-size: 15px;
-  color: #8c8b8b;
+}
+.footer-social ul a img {
+  height: 19px;
+}
+
+.footer-bottom {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #A3A3A3;
+}
+@media only screen and (max-width: 767px) {
+  .footer-bottom {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+}
+.footer-bottom p {
+  font-size: 13px;
+  color: #A3A3A3;
+}
+@media only screen and (max-width: 767px) {
+  .footer-bottom p {
+    margin-bottom: 12px;
+  }
+}
+.footer-bottom .legal-links a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  color: #A3A3A3;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-footer .footer-links ul li a:hover {
-  color: #43494E;
+.footer-bottom .legal-links a:hover {
+  text-decoration: underline;
 }
-footer .footer-links ul li a img {
-  height: 35px;
-}
-footer span {
+.footer-bottom .legal-links span {
   font-size: 13px;
-  color: #8c8b8b;
 }
 /*# sourceMappingURL=main.css.map */
