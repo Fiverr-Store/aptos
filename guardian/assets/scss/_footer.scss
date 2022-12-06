@@ -12,6 +12,8 @@
   }
   @media only screen and (max-width: 767px) {
    padding: 40px 0px;
+   padding-left: 10px;
+   padding-right: 10px;
   }
 }
 .footer-links{
@@ -22,6 +24,9 @@
     margin-bottom: 15px;
     @media only screen and (max-width: 1199px) {
       margin-bottom: 10px;
+     }
+     @media only screen and (max-width: 482px) {
+      font-size: 18px;
      }
   }
   ul{
@@ -39,6 +44,9 @@
       color: #000;
       font-weight: 400;
       font-size: 14px;
+      @media only screen and (max-width: 482px) {
+        font-size: 13px;
+       }
     }
   }
 }
@@ -50,6 +58,9 @@
     margin-bottom: 15px;
     @media only screen and (max-width: 1199px) {
      margin-bottom: 10px;
+    }
+    @media only screen and (max-width: 482px) {
+     font-size: 18px;
     }
   }
   ul{
@@ -71,6 +82,9 @@
       }
       img{
         height: 19px;
+        @media only screen and (max-width: 482px) {
+          height: 17px;
+         }
       }
     }
   }

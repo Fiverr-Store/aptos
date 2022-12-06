@@ -438,7 +438,8 @@ h6 a {
 @media only screen and (max-width: 991px) {
   .hero-area {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 76px;
+    padding-bottom: 50px;
   }
 }
 .hero-area h1 {
@@ -460,12 +461,14 @@ h6 a {
 @media only screen and (max-width: 767px) {
   .hero-area h1 {
     font-size: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 @media only screen and (max-width: 482px) {
   .hero-area h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 27px;
+    margin-bottom: 25px;
   }
 }
 .hero-area .btn-main {
@@ -506,6 +509,10 @@ h6 a {
 @media only screen and (max-width: 767px) {
   .intro {
     padding: 40px 0px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1.01%, #F6F8FB), to(#F6F8FB));
+    background: linear-gradient(180deg, #F6F8FB 1.01%, #F6F8FB 100%);
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .intro .title {
@@ -524,10 +531,20 @@ h6 a {
     margin-bottom: 60px;
   }
 }
+@media only screen and (max-width: 991px) {
+  .intro .title {
+    text-align: start;
+  }
+}
 @media only screen and (max-width: 767px) {
   .intro .title {
     font-size: 24px;
     margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .intro .in-single {
+    max-width: 300px;
   }
 }
 .intro .in-single .in-logo {
@@ -565,8 +582,10 @@ h6 a {
 }
 @media only screen and (max-width: 767px) {
   .products {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .products .sec-t {
@@ -579,6 +598,11 @@ h6 a {
 @media only screen and (max-width: 1199px) {
   .products .sec-t {
     margin-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .products .sec-t {
+    text-align: start;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -690,6 +714,9 @@ h6 a {
 @media only screen and (max-width: 767px) {
   .map {
     padding: 40px 0px;
+    background: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .map .sec-t {
@@ -704,10 +731,16 @@ h6 a {
     margin-bottom: 40px;
   }
 }
+@media only screen and (max-width: 991px) {
+  .map .sec-t {
+    text-align: start;
+  }
+}
 @media only screen and (max-width: 767px) {
   .map .sec-t {
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 0;
   }
 }
 .map .sec-t h2 {
@@ -792,6 +825,8 @@ h6 a {
 @media only screen and (max-width: 767px) {
   .footer-top {
     padding: 40px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -804,6 +839,11 @@ h6 a {
 @media only screen and (max-width: 1199px) {
   .footer-links h5 {
     margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .footer-links h5 {
+    font-size: 18px;
   }
 }
 .footer-links ul {
@@ -821,6 +861,11 @@ h6 a {
   font-weight: 400;
   font-size: 14px;
 }
+@media only screen and (max-width: 482px) {
+  .footer-links ul a {
+    font-size: 13px;
+  }
+}
 
 .footer-social h5 {
   color: #000;
@@ -831,6 +876,11 @@ h6 a {
 @media only screen and (max-width: 1199px) {
   .footer-social h5 {
     margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .footer-social h5 {
+    font-size: 18px;
   }
 }
 .footer-social ul {
@@ -856,6 +906,11 @@ h6 a {
 }
 .footer-social ul a img {
   height: 19px;
+}
+@media only screen and (max-width: 482px) {
+  .footer-social ul a img {
+    height: 17px;
+  }
 }
 
 .footer-bottom {

@@ -11,6 +11,9 @@
 	}
 	@media only screen and (max-width: 767px) {
 		padding: 40px 0px;
+    background: linear-gradient(180deg, #F6F8FB 1.01%, #F6F8FB 100%);
+    padding-left: 15px;
+    padding-right: 15px;
 	}
 	.title {
 		text-align: center;
@@ -25,12 +28,18 @@
 			max-width: 700px;
 			margin-bottom: 60px;
 		}
+    @media only screen and (max-width: 991px) {
+     text-align: start;
+    }
 		@media only screen and (max-width: 767px) {
 			font-size: 24px;
 			margin-bottom: 30px;
 		}
 	}
 	.in-single {
+    @media only screen and (max-width: 767px) {
+     max-width: 300px;
+    }
 		.in-logo {
 			height: 56px;
 			margin-bottom: 5px;
@@ -62,8 +71,10 @@
 		padding-bottom: 60px;
 	}
 	@media only screen and (max-width: 767px) {
-		padding-top: 20px;
+		padding-top: 40px;
 		padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
 	}
 	.sec-t {
 		text-align: center;
@@ -74,6 +85,9 @@
 		@media only screen and (max-width: 1199px) {
 			margin-bottom: 60px;
 		}
+    @media only screen and (max-width: 991px) {
+     text-align: start;
+    }
 		@media only screen and (max-width: 767px) {
 			margin-bottom: 30px;
 		}
@@ -161,6 +175,9 @@
 	}
 	@media only screen and (max-width: 767px) {
 		padding: 40px 0px;
+    background: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
 	}
 
   .sec-t {
@@ -173,9 +190,13 @@
       padding-bottom: 40px;
 			margin-bottom: 40px;
 		}
+    @media only screen and (max-width: 991px) {
+     text-align: start;
+    }
 		@media only screen and (max-width: 767px) {
-      padding-bottom: 30px;
-			margin-bottom: 30px;
+      padding-bottom: 20px;
+			margin-bottom: 20px;
+      border-bottom: 0;
 		}
 		h2 {
 			font-size: 32px;
