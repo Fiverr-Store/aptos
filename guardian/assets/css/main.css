@@ -205,6 +205,11 @@ h6 a {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
+@media only screen and (max-width: 482px) {
+  .navbar-area {
+    background: #fff;
+  }
+}
 
 .navbar {
   padding: 0;
@@ -215,12 +220,12 @@ h6 a {
 }
 @media (max-width: 991px) {
   .navbar {
-    padding: 8px 0;
+    padding: 10px 0;
   }
 }
 @media (max-width: 767px) {
   .navbar {
-    padding: 8px 0;
+    padding: 10px 0;
   }
 }
 .navbar .navbar-brand {
@@ -433,6 +438,8 @@ h6 a {
   padding-bottom: 35px;
   background-image: url("../img/hero/hero-bg.jpg");
   background-size: cover;
+  background-position: center;
+  background-color: #E8E8EC;
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 991px) {
@@ -440,6 +447,23 @@ h6 a {
     text-align: center;
     padding-top: 76px;
     padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-area {
+    padding-top: 66px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .hero-area {
+    padding-top: 60px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .hero-area {
+    background-image: url("../img/hero/mob-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 .hero-area h1 {
@@ -467,7 +491,7 @@ h6 a {
 }
 @media only screen and (max-width: 482px) {
   .hero-area h1 {
-    font-size: 27px;
+    font-size: 30px;
     margin-bottom: 25px;
   }
 }
