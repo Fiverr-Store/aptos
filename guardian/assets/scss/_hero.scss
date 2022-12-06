@@ -46,6 +46,7 @@
     &:hover{
       background-color: darken($color: $primary-color, $amount: 10%);
       color: #fff;
+      box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.42);
     }
    }
 }

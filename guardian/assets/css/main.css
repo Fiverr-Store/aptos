@@ -483,6 +483,8 @@ h6 a {
 .hero-area .btn-main:hover {
   background-color: #2b2f33;
   color: #fff;
+  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.42);
+          box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.42);
 }
 
 /*--------------------------------------------------------------
