@@ -845,6 +845,12 @@ h6 a {
 .footer-social ul a {
   text-decoration: none;
   display: inline-block;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.footer-social ul a:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
 }
 .footer-social ul a img {
   height: 19px;
