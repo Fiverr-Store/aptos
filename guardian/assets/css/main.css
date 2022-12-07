@@ -576,6 +576,11 @@ h6 a {
   height: 56px;
   margin-bottom: 5px;
 }
+@media only screen and (max-width: 767px) {
+  .intro .in-single .in-logo {
+    margin-bottom: 15px;
+  }
+}
 .intro .in-single h4 {
   color: #000;
   font-size: 18px;
