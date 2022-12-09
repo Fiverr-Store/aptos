@@ -1237,6 +1237,7 @@ section {
 @media only screen and (max-width: 991px) {
   .card-sec {
     padding-top: 140px;
+    padding-bottom: 50px;
   }
 }
 
@@ -1255,6 +1256,11 @@ p {
   font-size: 30px;
   font-weight: 800;
   text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .container .h8 {
+    font-size: 26px;
+  }
 }
 
 .card .btn.btn-primary {
