@@ -792,6 +792,13 @@ padding-bottom: 80px;
  padding-top: 140px;
  padding-bottom: 50px;
 }
+.form-control {
+  color: #777;
+  height: 60px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
 }
 .card {
     max-width: 500px;
@@ -842,12 +849,6 @@ p {
     transition: transform 0.2s ease-in;
 }
 
-.form-control {
-    color: #777;
-    height: 60px;
-    padding-left: 20px;
-    vertical-align: middle;
-}
 
 .text {
     font-size: 14px;

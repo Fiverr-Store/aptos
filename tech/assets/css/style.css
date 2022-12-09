@@ -1240,6 +1240,12 @@ section {
     padding-bottom: 50px;
   }
 }
+.card-sec .form-control {
+  color: #777;
+  height: 60px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
 
 .card {
   max-width: 500px;
@@ -1298,13 +1304,6 @@ p {
   transition: -webkit-transform 0.2s ease-in;
   transition: transform 0.2s ease-in;
   transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
-}
-
-.form-control {
-  color: #777;
-  height: 60px;
-  padding-left: 20px;
-  vertical-align: middle;
 }
 
 .text {
