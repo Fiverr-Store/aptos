@@ -1,0 +1,93 @@
+/*--------------------------------------------------------------
+# mixup
+--------------------------------------------------------------*/
+.wrapper{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mixup{
+  padding-bottom: 70px;
+  .sec-t{
+    text-align: center;
+    h2{
+      font-size: 25px;
+      font-weight: 500;
+      margin-bottom: 16px;
+      line-height: 1.4;
+      @media only screen and (max-width: 767px) {
+       font-size: 22px;
+      }
+      @media only screen and (max-width: 482px) {
+       font-size: 21px;
+      }
+      span{
+        display: inline-block;
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+.mix-box{
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 22px;
+  background-color: #fff;
+  padding: 30px 30px;
+  box-shadow: 0px 0px 56.89125px rgb(0 0 0 / 25%);
+  @media only screen and (max-width: 767px) {
+   padding: 20px 20px;
+  }
+  label{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: $secondary-color;
+  }
+  .form-control{
+    border-radius: 8px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    color: $title-color;
+    @media only screen and (max-width: 767px) {
+     font-size: 15px;
+    }
+  }
+  .form-select{
+    height: 44px;
+    border-radius: 8px;
+    @media only screen and (max-width: 767px) {
+     font-size: 15px;
+    }
+  }
+  p{
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+  }
+
+  .btn-mix{
+    display: block;
+    border: 0;
+    text-align: center;
+    padding: 12px 16px;
+    background: #06496E;
+    background: linear-gradient(94.47deg, #06496E -16.48%, #4698C7 106.04%);
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 9px;
+    margin-top: 16px;
+    transition: all .2s ease-in;
+    text-decoration: none;
+    &:hover{
+      background: #06496E;
+      background: linear-gradient(94.47deg, #06496E -16.48%, #1c465e 106.04%);
+      color: #fff;
+    }
+  }
+}
